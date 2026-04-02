@@ -1,21 +1,27 @@
 # Getting and Cleaning Data Course Project
 
 ## Overview
-This project demonstrates the collection, cleaning, and tidying of the Human Activity Recognition dataset.
+This project demonstrates the ability to collect, clean, and prepare a tidy dataset using the Human Activity Recognition Using Smartphones Dataset.
 
 ## Files in this repository
-- run_analysis.R: Script that performs the data cleaning
-- tidy_data.txt: Final tidy dataset
-- CodeBook.md: Description of variables and transformations
 
-## Steps performed
-1. Merged training and test datasets
-2. Extracted mean and standard deviation measurements
-3. Used descriptive activity names
-4. Labeled dataset with clear variable names
-5. Created a second tidy dataset with averages
+- run_analysis.R → Script that performs all data cleaning steps
+- tidy_data.txt → Final tidy dataset with averages
+- CodeBook.md → Description of variables and transformations
+
+## What the script does
+
+1. Merges training and test datasets
+2. Extracts mean and standard deviation measurements
+3. Uses descriptive activity names
+4. Labels dataset with clear variable names
+5. Creates a second tidy dataset with averages for each subject and activity
 
 ## How to run
-Place the dataset in the working directory and run:
+
+1. Download and unzip dataset
+2. Place folder in working directory
+3. Run:
+
 ```r
 source("run_analysis.R")
